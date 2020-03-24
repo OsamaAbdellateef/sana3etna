@@ -1,0 +1,60 @@
+.but {
+  color: #fff;
+  background-color: #3587D7;
+  border: none;
+  outline: none;
+  display: inline-block;
+  border-radius: 3px;
+  width: 222px;
+  text-align: center;
+  padding: 13px;
+}
+
+.but:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.but:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.logo-txt {
+  color: #3587D7 !important;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.font-md {
+  font-size: 1.3rem;
+}
+
+.border-t {
+  border-top: 1px solid #6e6e6e;
+  display: none;
+}
+
+.mainView {
+  color: #fff;
+  background-color: red;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, right top, from(#3493e68e), to(#ec6ead85)), url(../../images/header-image.jpg);
+  background-image: linear-gradient(to right, #3493e68e, #ec6ead85), url(../../images/header-image.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.mainView h1 {
+  font-size: 3rem;
+}
+
+.mainView .carousel-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+/*# sourceMappingURL=carousel.style.css.map */

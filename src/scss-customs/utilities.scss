@@ -1,0 +1,46 @@
+@import './../scss-customs/mixins.scss';
+@import './../scss-customs/variables.scss';
+
+.mt-large {
+    margin-top: 110px !important;
+}
+
+.but {
+    color: #fff;
+    background-color: #3587D7;
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 3px;
+    width: 222px;
+    text-align: center;
+    padding: 13px;
+
+    &:hover {
+        text-decoration: none;
+        color: $color-white;
+    }
+
+    &:focus {
+        outline: none;
+        text-decoration: none;
+    }
+}
+
+.logo-txt {
+    color:$color-primary !important;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.font-md {
+    font-size: 1.3rem;
+}
+
+
+
+.border-t {
+    border-top: 1px solid rgb(110, 110, 110);
+    display: none;
+}
+

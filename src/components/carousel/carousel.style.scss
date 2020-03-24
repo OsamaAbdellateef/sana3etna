@@ -1,0 +1,20 @@
+@import './../../scss-customs/mixins.scss';
+@import './../../scss-customs/variables.scss';
+@import './../../scss-customs/utilities.scss';
+
+.mainView {
+    color: $color-white;
+    background-color: red;
+    height: 100vh;
+    background-image: linear-gradient(to right, #3493e68e, #ec6ead85), url(../../images/header-image.jpg);
+    h1{
+        font-size: 3rem;
+    }
+    @include bgStyling();
+    .carousel-content {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform:translate(-50%)
+    }
+}
